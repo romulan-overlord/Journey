@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" href="favicon.png" style="border-radius: 5px;">
+	<script src="script.js"></script>
+	<!-- <script data-main="scripts/main.js" src="scripts/require.js"></script> -->
+	<title>Journey</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="myBody" onload="get_date()">
+	<div class="entryControl">
+		<button onclick="save_button()"><img src="check.png" style="height: 20px; width: 20px; filter: invert(100%);"></button>
+		<p id="myTitle"></p>
+	</div>
+
+	<section class="myBox">
+		<textarea id="textbox" autofocus spellcheck="false"></textarea>
+	</section>
+</body>
